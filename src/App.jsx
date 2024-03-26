@@ -2,6 +2,7 @@ import LineChart from './components/LineChart/LineChart'
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import PriceOptions from './components/PriceOptions/PriceOptions'
+import Phones from './components/Phones/Phones'
 // import DaisyNav from './components/DaisyNav/DaisyNav';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <h1 className='text-7xl bg-rose-600'>Vite + React</h1>
       <PriceOptions></PriceOptions>
       <LineChart></LineChart>
+      <Phones></Phones>
     </>
   )
 }
